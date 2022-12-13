@@ -1,7 +1,12 @@
 import './App.module.scss';
+import { Header } from './components/header/Header';
 
 function App() {
-  return <div className="App">Card Game</div>;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
